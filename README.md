@@ -32,6 +32,24 @@ This repository contains a Jupyter Notebook implementation of a **Text Summariza
    jupyter notebook Text_Summarization_Model_using_LLMs.ipynb
    ```
 
+## 💡 Working
+
+The model uses Hugging Face’s `transformers` library to load pre-trained LLMs for summarizing long texts.
+
+### 🔤 Example
+
+**Input Text:**
+```
+The rapid advancement of artificial intelligence has sparked both excitement and concern among experts, as it promises to revolutionize industries while raising ethical and societal questions.
+```
+
+**Generated Summary (Abstractive):**
+```
+Summary: the rapid advancement of artificial intelligence has sparked both excitement and concern among experts. artificial intelligence promises to revolutionize industries.
+```
+
+You can modify the input text within the notebook and see live results.
+
 ## 🔗 Reference
 
 This project was inspired by the tutorial published on *The Clever Programmer* blog:  
